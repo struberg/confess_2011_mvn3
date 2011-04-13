@@ -1,0 +1,27 @@
+<project xmlns="http://maven.apache.org/POM/4.0.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/maven-v4_0_0.xsd">
+    <modelVersion>4.0.0</modelVersion>
+
+    <parent>
+        <groupId>com.con-fess.sessions.maven3</groupId>
+        <artifactId>simple-multimodule-project</artifactId>
+        <version>0.0.1-SNAPSHOT</version>
+    </parent>
+
+    <artifactId>simple-frontend</artifactId>
+    <packaging>war</packaging>
+
+    <name>our sample frontend project</name>
+
+    <dependencies>
+        <dependency>
+            <groupId>com.con-fess.sessions.maven3</groupId>
+            <artifactId>simple-backend</artifactId>
+            <version>${project.version}</version>
+        </dependency>
+        <dependency>
+            <groupId>org.testng</groupId>
+            <artifactId>testng</artifactId>
+        </dependency>
+    </dependencies>
+
+</project>    
