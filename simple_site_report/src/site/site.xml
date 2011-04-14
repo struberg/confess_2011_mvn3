@@ -1,0 +1,25 @@
+<?xml version="1.0"?>
+<project name="OpenWebBeans">
+
+<!--
+    <bannerLeft>
+    ...
+    </bannerLeft>
+-->
+
+    <publishDate format="dd MMM yyyy" />
+    <version position="left"/>
+
+    <body>
+        <menu name="Overview">
+            <item name="Introduction" href="index.html" />
+        </menu>
+
+        <menu name="My Project">
+            <item name="Some Site" href="somesite.html" />
+        </menu>
+
+        <menu ref="reports"/>
+
+    </body>
+</project>
